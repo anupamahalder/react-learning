@@ -29,6 +29,7 @@ This project was bootstrapped with [Create React App]
 
 <h2>JSX:</h2>
     Representation layer means render() function, the task of render() function is to return JSX (JSX means HTML code inside JavaScript)
+<<<<<<< HEAD
 
 ## There are two different ways to create React component
     1. Class Based Component / Stateful component / Smart Component
@@ -48,3 +49,5 @@ This project was bootstrapped with [Create React App]
     2. If we have mutliple properties for an element then we can create an object for that and then spread it to that element
     3. We can execute any javaScript code inside {} curly braces and that should me single statement not mutliple statement.
     4. jsx code which looks like html is actually a statement so we can store that in a variable. And using variable is a task of javaScript.
+=======
+>>>>>>> aec2ec80946accd52d11ee68be3eeabbb7f46aca
