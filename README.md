@@ -57,3 +57,9 @@ This project was bootstrapped with [Create React App]
     2. From props we can get data which will be dynamic for components
     3. When custom component will take attributes those are called props/property
     4. Data will be given from where the component is being called
+
+### How to pass Function as Props:
+    1. From parent to child the function will be passed as props, then we can call the function as our need in the child component
+
+### State:
+    1. State is a javaScript object. We can use state like we use object

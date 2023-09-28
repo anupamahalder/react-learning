@@ -17,7 +17,7 @@ const Profile = () => {
         <div className='main-div'>
             {/* this.me will give an object then name is the property of that object  */}
             <Bio name={me.name} title = {me.title}></Bio>
-            <Skills></Skills>
+            <Skills skillA={'JavaScript'} skillB={'React JS'} skillC={'C++'}></Skills>
             <Links></Links>
         </div>
     );
