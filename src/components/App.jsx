@@ -1,14 +1,30 @@
 import React, {Component} from "react";
 import Profile from "./Profile/Profile";
+// import Skills from "./Profile/Skills";
+import MyProps from "./Props";
+import Bio from "./Profile/Bio"; 
+
 // inherit react's component to App also we can destructure component from above
 // now App class not an usual class it becomes a component
 class App extends Component{
     // render method should return something(jsx) jsx means html code in javascript 
     render(){
-
+        // console.log('Profile props: ',this.props);
         return (
             <div>
                 <Profile></Profile>
+                <Bio name={'Rupsha Halder'} title={"Lawyer"}></Bio>
+                {/* <div style={{marginLeft:'100px',marginRight:'100px'}}>
+                    <h3>List of Programmers</h3>
+                    <p>Mr. X</p>
+                    <Skills></Skills>
+                    <p>Mr. Y</p>
+                    <Skills></Skills> 
+                    sending name props 
+                    <MyProps name="Rupsha Halder"></MyProps>
+                    <MyProps name="Priya Halder"></MyProps>
+                    <MyProps name="Tiya Halder"></MyProps>
+                </div> */}
             </div>
         )
 

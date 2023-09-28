@@ -1,30 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Profile.css';
+import Bio from './Bio';
+import Links from './Links';
+import Skills from './Skills';
+// Using arrow function creating functional
+
 const Profile = () => {
+    //Here me is an object
+    const me ={
+        name: 'Anupama Halder',
+        title: 'Frontend Developer | React Developer | MERN Stack',
+    }
     return (
+        // this.props
+        // console.log("Profile--",this.props);
         <div className='main-div'>
-            <div className='Bio'>
-                <h3>Anupama Halder</h3>
-                <p>Frontend Developer | React Developer | Problem Solver</p>
-            </div>
-            <div className='skills'>
-                <h3>Skills: </h3>
-                <ul className='flex-div'>
-                    <li>React JS</li>
-                    <li>JavaScript</li>
-                    <li>C++</li>
-                    <li>HTML</li>
-                </ul>
-            </div>
-            <div className='Links'>
-                <h3>Social Links: </h3>
-                <ul className='flex-div'>
-                    <li><a href="#">FaceBook</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">LeetCode</a></li>
-                </ul>
-            </div>
+            {/* this.me will give an object then name is the property of that object  */}
+            <Bio name={me.name} title = {me.title}></Bio>
+            <Skills></Skills>
+            <Links></Links>
         </div>
     );
 };

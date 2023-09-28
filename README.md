@@ -51,3 +51,9 @@ This project was bootstrapped with [Create React App]
     4. jsx code which looks like html is actually a statement so we can store that in a variable. And using variable is a task of javaScript.
 =======
 >>>>>>> aec2ec80946accd52d11ee68be3eeabbb7f46aca
+
+## Props:
+    1. Each class based component automatically has props named property. using this.props we can see that
+    2. From props we can get data which will be dynamic for components
+    3. When custom component will take attributes those are called props/property
+    4. Data will be given from where the component is being called
