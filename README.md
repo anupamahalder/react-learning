@@ -67,10 +67,16 @@ This project was bootstrapped with [Create React App]
 ## What is Event?
     - Event is an object which only triggers when something sepcial happens and return an object to the listener which contains information related to taht event.
     - Ex: Button Click, Input Element, Form submission, Mouse Enter, Mouse Leave
+    - Whichever starts with 'on' indicates event like 'onClick', 'onChange','onSubmit' and so on.
 
 ### NOTE: 
     Event is the only way to interact with users and get users feedback.
 
-Every Event has --
-    - Name
-    - Listener function
+### Every Event has --
+    1. Name
+    2. Listener function
+### Elements that are made for event handling---
+    - button
+    - form
+### More on Event:
+    - event.target gives in which element the event is happenning.
