@@ -63,3 +63,14 @@ This project was bootstrapped with [Create React App]
 
 ### State:
     1. State is a javaScript object. We can use state like we use object
+
+## What is Event?
+    - Event is an object which only triggers when something sepcial happens and return an object to the listener which contains information related to taht event.
+    - Ex: Button Click, Input Element, Form submission, Mouse Enter, Mouse Leave
+
+### NOTE: 
+    Event is the only way to interact with users and get users feedback.
+
+Every Event has --
+    - Name
+    - Listener function
