@@ -97,3 +97,7 @@ Three most common event handler of input element is -- <br>
     2. onFocus (when input field is being clicked)
     3. onBlur (when except input field other place is being clciked after focus on the input field)
 We can implement these events as per our requirements and get our job done.
+
+## Form:
+    1. Getting input by event.target.value 
+    2. getting the input element by event.target.name
