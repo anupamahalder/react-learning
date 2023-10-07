@@ -66,8 +66,8 @@ This project was bootstrapped with [Create React App]
 
 <h2> What is Event?</h2>
     - Event is an object which only triggers when something sepcial happens and return an object to the listener which contains information related to taht event.
-    - Ex: Button Click, Input Element, Form submission, Mouse Enter, Mouse Leave
-    - Whichever starts with 'on' indicates event like 'onClick', 'onChange','onSubmit' and so on.
+    <br/>- Ex: Button Click, Input Element, Form submission, Mouse Enter, Mouse Leave
+    <br/>- Whichever starts with 'on' indicates event like 'onClick', 'onChange','onSubmit' and so on.
 
 ### NOTE: 
     Event is the only way to interact with users and get users feedback.
@@ -89,3 +89,11 @@ This project was bootstrapped with [Create React App]
 <h3> NOTE: </h3>
     When we will bind the value property of input field to state value then we need to apply onChange function else there will be a warning
     When we will bind the value property of input field to state value then we need to apply onChange function else there will be a warning. This is known as two way data binding.
+
+<h4>Adding Event Handler:</h4>
+We can add multiple event handler to a single element. <br/>
+Three most common event handler of input element is -- <br>
+    1. onChange 
+    2. onFocus (when input field is being clicked)
+    3. onBlur (when except input field other place is being clciked after focus on the input field)
+We can implement these events as per our requirements and get our job done.
