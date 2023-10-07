@@ -64,7 +64,7 @@ This project was bootstrapped with [Create React App]
 ### State:
     1. State is a javaScript object. We can use state like we use object
 
-## What is Event?
+<h2> What is Event?</h2>
     - Event is an object which only triggers when something sepcial happens and return an object to the listener which contains information related to taht event.
     - Ex: Button Click, Input Element, Form submission, Mouse Enter, Mouse Leave
     - Whichever starts with 'on' indicates event like 'onClick', 'onChange','onSubmit' and so on.
@@ -82,3 +82,10 @@ This project was bootstrapped with [Create React App]
     - event.target gives in which element the event is happenning.
 ### NOTE:
     Any event handler whenever we pass it to any event then automatically the event object will be passed by that event so we don't need to pass any event.
+
+<h2> Two Way Data Binding: </h2>
+    When user is typing something in an input field and we want to data to another place so we need state (as we know if anything is in state then that can be used to other place and based on state value we can update jsx)
+
+<h3> NOTE: </h3>
+    When we will bind the value property of input field to state value then we need to apply onChange function else there will be a warning
+    When we will bind the value property of input field to state value then we need to apply onChange function else there will be a warning. This is known as two way data binding.
