@@ -77,6 +77,8 @@ This project was bootstrapped with [Create React App]
     2. Listener function
 ### Elements that are made for event handling---
     - button
-    - form
+    - form/input field
 ### More on Event:
     - event.target gives in which element the event is happenning.
+### NOTE:
+    Any event handler whenever we pass it to any event then automatically the event object will be passed by that event so we don't need to pass any event.
