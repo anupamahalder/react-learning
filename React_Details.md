@@ -16,5 +16,23 @@ JavaScript(ES6): Template Literals, Function & Arrow Function, Object Destructur
 Component is a part of the website. React is famous for its components. Components can be a small keyword or a full area of the website.
 
 ### Types of Components:
-1. Class based components
-2. Functional components
+## 1. Functional components
+    const Compo = ()=>{
+        return (
+            <>
+            <h1>Hello</h1>
+            </>
+        );
+    }
+    export default Compo;
+## 2. Class based components
+    class Compo extends Component{
+        render(){
+            return(
+                <>
+                <h1>Hello</h1>
+                </>
+            );
+        }
+    }
+    export default Compo;
