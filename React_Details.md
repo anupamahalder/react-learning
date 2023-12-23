@@ -12,3 +12,9 @@ Instead of manipulating the browser's DOM directly, React creates a virtual DOM 
 ## Which JavaScript concepts are need to learn React?
 JavaScript(ES6): Template Literals, Function & Arrow Function, Object Destructuring, Spread & Rest Operator, Module Import & Export, Promise & Async, NPM/Yarn/NVM Basic uses, Document Object Model(DOM), Browser Object Model(BOM) Server Deploy.
 
+## What is component?
+Component is a part of the website. React is famous for its components. Components can be a small keyword or a full area of the website.
+
+### Types of Components:
+1. Class based components
+2. Functional components
