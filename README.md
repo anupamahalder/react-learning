@@ -84,7 +84,9 @@ This project was bootstrapped with [Create React App]
     Any event handler whenever we pass it to any event then automatically the event object will be passed by that event so we don't need to pass any event.
 
 <h2> Two Way Data Binding: </h2>
-    When user is typing something in an input field and we want to data to another place so we need state (as we know if anything is in state then that can be used to other place and based on state value we can update jsx)
+<p>
+    When user is typing something in an input field and we want to data to another place so we need state (as we know if anything is in state then that can be used to other place and based on state value we can update jsx). This is a process by which we can set the state value to changed value which is updated/changed by the onChange event handler
+    </p>
 
 <h3> NOTE: </h3>
     When we will bind the value property of input field to state value then we need to apply onChange function else there will be a warning
@@ -92,12 +94,13 @@ This project was bootstrapped with [Create React App]
 
 <h4>Adding Event Handler:</h4>
 We can add multiple event handler to a single element. <br/>
-Three most common event handler of input element is -- <br>
-    1. onChange 
-    2. onFocus (when input field is being clicked)
-    3. onBlur (when except input field other place is being clciked after focus on the input field)
+Three most common event handler of input element is -- <br/>
+    1. onChange  <br/>
+    2. onFocus (when input field is being clicked) <br/>
+    3. onBlur (when except input field other place is being clciked after focus on the input field) <br/>
 We can implement these events as per our requirements and get our job done.
 
 ## Form:
     1. Getting input by event.target.value 
     2. getting the input element by event.target.name
+

@@ -14,17 +14,17 @@ const Forms = () => {
         const stateName = event.target.name;
         // console.log("state bname", stateName);
         const stateValue = event.target.value;
-        if(stateName == 'name'){
+        if(stateName === 'name'){
             setName(stateValue);
             console.log(name);
         }
-        else if(stateName == 'country'){
+        else if(stateName === 'country'){
             setCountry(stateValue);
         }
-        else if(stateName == 'bio'){
+        else if(stateName === 'bio'){
             setBio(stateValue);
         }
-        else if(stateName == 'birthDate'){
+        else if(stateName === 'birthDate'){
             setBirthDate(stateValue);
         }
     }
