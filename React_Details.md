@@ -15,8 +15,8 @@ JavaScript(ES6): Template Literals, Function & Arrow Function, Object Destructur
 ## What is component?
 Component is a part of the website. React is famous for its components. Components can be a small keyword or a full area of the website.
 
-### Types of Components:
-## 1. Functional components
+## Types of Components:
+### 1. Functional components
     const Compo = ()=>{
         return (
             <>
@@ -25,7 +25,7 @@ Component is a part of the website. React is famous for its components. Componen
         );
     }
     export default Compo;
-## 2. Class based components
+### 2. Class based components
     class Compo extends Component{
         render(){
             return(
@@ -36,3 +36,12 @@ Component is a part of the website. React is famous for its components. Componen
         }
     }
     export default Compo;
+
+## What is JSX?
+JSX is JavaScript XML, is a syntax extension for JavaScript. It looks like HTML in JavaScript files but behind the scene it becomes JavaScript for making it easier to define the structure of React components. Also we can write regular JavaScript in our code while using JSX.
+
+JSX gets transformed into regular JavaScript by tools like Babel before being rendered in the browser.
+It provides a more concise and readable way to describe the structure of user interfaces in React.
+
+## What is Props ?
+"Props" is a shorthand term for "Properties" in React. Ii is the parameter of the component. In a React component, "props" is an object that stores values or configuration settings passed to the component from its parent component. These values allow the parent component to communicate with and customize the behavior of the child component. props are read-only and help create dynamic and reusable components in a React application.

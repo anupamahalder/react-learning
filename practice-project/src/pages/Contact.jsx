@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import Header from './Header';
-const Contact = () => {
+const Contact = (props) => {
     return (
         <div className='contact'>
             <Header/>
