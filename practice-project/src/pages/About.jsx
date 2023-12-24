@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
 import Header from './Header';
 const About = () => {
@@ -11,12 +11,16 @@ const About = () => {
             prof3: "React Developer"
         }
     }
-    
+    const [myProf, setMyProf] = useState("Web developer");
+    const changeValue = ()=>{
+        setMyProf("Full Stack Developer");
+    }
     return (
         <div className='about'>
             <Header/>
             <h1>Hello from About</h1>
-            <button>Change value</button>
+            <p>My profession is {myProf}</p>
+            <button onClick={()=>changeValue}>Change value</button>
         </div>
     );
 };
