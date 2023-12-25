@@ -16,9 +16,9 @@ const About = () => {
         setMyProf("Full Stack Developer");
     }
     return (
-        <div className='about'>
+        <div>
             <Header/>
-            <h1>Hello from About</h1>
+            <h1 className='about'>Hello from About</h1>
             <p>My profession is {myProf}</p>
             <button onClick={()=>changeValue}>Change value</button>
         </div>

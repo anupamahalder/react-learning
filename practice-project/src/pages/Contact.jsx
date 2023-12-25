@@ -3,9 +3,9 @@ import './Contact.css';
 import Header from './Header';
 const Contact = (props) => {
     return (
-        <div className='contact'>
+        <div>
             <Header/>
-            <h1>Hello from Contact</h1>
+            <h1  className='contact'>Hello from Contact</h1>
         </div>
     );
 };
