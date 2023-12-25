@@ -14,6 +14,9 @@ const Home = () => {
     const focusText = () =>{
         console.log("You have focused on input field!");
     }
+    const blurText = () =>{
+        console.log("You have blur on input!");
+    }
     return (
         <div className='home'>
             <Header/>
@@ -26,7 +29,9 @@ const Home = () => {
                 <label htmlFor="">Enter name: </label>
                 <input type="text" onPaste={pasteText}/> <br /><br />
                 <label htmlFor="">Enter email:</label>
-                <input type="email" onFocus={focusText}/>
+                <input type="email" onFocus={focusText}/> <br /> <br />
+                <label htmlFor="">Enter degree:</label>
+                <input type="text" onBlur={blurText}/>
             </div>
         </div>
     );
