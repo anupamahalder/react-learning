@@ -48,6 +48,7 @@ It provides a more concise and readable way to describe the structure of user in
 
 ## To avoid problem in Styling with CSS:
 We use <strong>module</strong> css. The css file name will be like this filename.module.css 
+With working with same class name there will be no conflict with global css.
 to import the module file
     
     import anyNameForStyle from "./filename.module.css";
