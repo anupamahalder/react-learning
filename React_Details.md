@@ -45,3 +45,11 @@ It provides a more concise and readable way to describe the structure of user in
 
 ## What is Props ?
 "Props" is a shorthand term for "Properties" in React. Ii is the parameter of the component. In a React component, "props" is an object that stores values or configuration settings passed to the component from its parent component. These values allow the parent component to communicate with and customize the behavior of the child component. props are read-only and help create dynamic and reusable components in a React application.
+
+## To avoid problem in Styling with CSS:
+We use <strong>module</strong> css. The css file name will be like this filename.module.css 
+to import the module file
+    
+    import anyNameForStyle from "./filename.module.css";
+
+then destructure the css object to style the element.
