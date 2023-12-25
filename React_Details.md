@@ -54,3 +54,8 @@ to import the module file
     import anyNameForStyle from "./filename.module.css";
 
 then destructure the css object to style the element.
+
+## Controlled Form and Uncontrolled Form:
+In a controlled component, form data is handled by a React component. Ex: when we give value attribute to an input tag and must have an onChenge handler to handle input onChange event will consists of a callback function.
+
+The alernative is uncontrolled components, where form data is handled by the DOM itself.

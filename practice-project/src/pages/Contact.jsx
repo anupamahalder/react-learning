@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 import Header from './Header';
 const Contact = (props) => {
     const formChange = (event) =>{
         // to show the name of the input tag 
         console.log(event.target.value);
+    }
+    const [isChecked, setIsChecked] = useState(false);
+    const handleCheckbox = (event) =>{
+        console.log(isChecked);
+        setIsChecked(!isChecked);
+        console.log(isChecked);
     }
     return (
         <div>
@@ -33,6 +39,9 @@ const Contact = (props) => {
                     <input type="radio" value="not interest" name='gender' onChange={formChange} />
                     <label htmlFor="gender">Not Interest</label>
                 </div>
+                <input type="checkbox" name='checkbox' onChange={handleCheckbox}/>
+                The checkbox is checked --{isChecked ? "True" : "False"}
+                <button onClick={()=>console.log("submitted successfully!")}>Submit</button>
             </div>
         </div>
     );
