@@ -18,7 +18,10 @@ const Contact = (props) => {
                         <option value="Programming">Programming</option>
                         <option value="Web Development">Web Development</option>
                         <option value="Competitive Coding">Competitive Coding</option>
-                    </select>
+                    </select> <br />
+                    {/* date and time  */}
+                    <label htmlFor="">Select BDay: </label>
+                    <input type="date" name="creationDate" onChange={formChange} />
                 </div>
             </div>
         </div>
