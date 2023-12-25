@@ -23,6 +23,7 @@ const Home = () => {
         <div>
             <Header/>
             <h1 className='home'>Hello from Home</h1>
+            <h1>This is JSX expression {5+5}</h1>
             {/* Copy Event  */}
             <div>
                 <p onCopy={copyText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio vero, perspiciatis, impedit quia odio deleniti consectetur officia quibusdam illo incidunt fugit, officiis magni quis expedita error ipsa. Obcaecati ullam error eaque maxime voluptas eius hic voluptates eos illum exercitationem possimus, in assumenda a asperiores, quasi nisi. Cumque, doloribus ipsa.</p>

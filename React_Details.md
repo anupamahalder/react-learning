@@ -59,3 +59,9 @@ then destructure the css object to style the element.
 In a controlled component, form data is handled by a React component. Ex: when we give value attribute to an input tag and must have an onChenge handler to handle input onChange event will consists of a callback function.
 
 The alernative is uncontrolled components, where form data is handled by the DOM itself.
+
+## Expressions in JSX
+With JSX you can write expressions inside curly braces { }.
+The expression can be a React variable, or property, or any other valid JavaScript expression. JSX will execute the expression and return the result.
+    
+    <h1>This is JSX Expression {5 + 5}</h1>
