@@ -65,3 +65,14 @@ With JSX you can write expressions inside curly braces { }.
 The expression can be a React variable, or property, or any other valid JavaScript expression. JSX will execute the expression and return the result.
     
     <h1>This is JSX Expression {5 + 5}</h1>
+
+## Template Literals
+To concat two properties of an object we use template literals where we put our entire text inside backtick and all these we put inside curly braces. To make the value dynamic we use $ then curly braces and the property of object of any variable.
+
+    const myData = {
+        name: "Anupama",
+        roll: 6
+    }
+    return (
+        <h1>{`My name is ${myData.name} and my roll number is ${myData.roll}`}</h1>
+    );
