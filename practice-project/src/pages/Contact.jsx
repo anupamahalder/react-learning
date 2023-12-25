@@ -21,7 +21,17 @@ const Contact = (props) => {
                     </select> <br />
                     {/* date and time  */}
                     <label htmlFor="">Select BDay: </label>
-                    <input type="date" name="creationDate" onChange={formChange} />
+                    <input type="date" name="creationDate" onChange={formChange} /> <br />
+                    {/* take input with text area  */}
+                    <textarea name="about" onChange={formChange} id="" cols="30" rows="10" placeholder='Tell me about yourself'></textarea> <br /> <br />
+                    {/* radio button  */}
+                    <label htmlFor="">Select Your Gender:</label>
+                    <input type="radio" value="male" name='gender' onChange={formChange} />
+                    <label htmlFor="gender">Male</label>
+                    <input type="radio" value="female" name='gender' onChange={formChange} />
+                    <label htmlFor="gender">Female</label>
+                    <input type="radio" value="not interest" name='gender' onChange={formChange} />
+                    <label htmlFor="gender">Not Interest</label>
                 </div>
             </div>
         </div>
