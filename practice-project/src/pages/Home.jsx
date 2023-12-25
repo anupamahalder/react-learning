@@ -11,6 +11,9 @@ const Home = () => {
     const pasteText = () =>{
         alert("Paste successful!");
     }
+    const focusText = () =>{
+        console.log("You have focused on input field!");
+    }
     return (
         <div className='home'>
             <Header/>
@@ -21,7 +24,9 @@ const Home = () => {
 
                 <h2 onCut={cutText}>This is clipboard page you have cut some text from here</h2>
                 <label htmlFor="">Enter name: </label>
-                <input type="text" onPaste={pasteText}/>
+                <input type="text" onPaste={pasteText}/> <br /><br />
+                <label htmlFor="">Enter email:</label>
+                <input type="email" onFocus={focusText}/>
             </div>
         </div>
     );
